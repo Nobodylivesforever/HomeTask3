@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Economica:400,700); 
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Economica";
+}
+
+li {
+	display: inline-block;
+	padding: 5px;
+	list-style: none;
+	position: relative;
+	left: 30%;	
+	   	-moz-transform: scaleY(-1);
+	    -o-transform: scaleY(-1);
+		-webkit-transform: scaleY(-1);
+	    transform: scaleY(-1);
+	    filter: FlipV;
+	    -ms-filter: "FlipV"; /* Так тоже работает =) */
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+a:hover {
+	color: #A3A3A0;
+	background-color: #E3E3DF;
+}
+
+nav {
+	background-color: #B12DFF;
+}
+
+ul {
+	width: 900px;
+}
+
+#more {
+	padding-left: 100px;
+}

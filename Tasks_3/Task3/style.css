@@ -1,0 +1,41 @@
+body {
+	margin-top: 50px;
+}
+
+.pagination ul li{
+	float:left;
+	display:inline-block;
+	list-style:none;
+	margin:3px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10pt;
+}
+
+.pagination ul li a, .pagination ul li a:visited{
+	display:block;
+	padding:5px 10px;
+	text-decoration:none;
+}
+
+
+
+.pagination ul li a:link.page, .pagination ul li a:visited.page{
+	border:1px solid #8F8F8C;
+	background: #e0e0e0;
+	background-color: #ffffff;
+	color:#5B15B2;
+	text-shadow:none !important;
+	border-radius:4px;
+}
+
+.pagination ul li a:hover.page{
+	border:1px solid #5B15B2;
+	background: #5B15B2;
+	color: white;
+	border-radius:4px;
+}
+
+
+#first,#prev,#next,#last {
+	border: none;
+}
